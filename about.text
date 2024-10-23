@@ -1,0 +1,34 @@
+Features:
+Task Management:
+
+Users can add tasks, view tasks, and mark tasks as completed.
+Data Persistence:
+
+Tasks are saved in a CSV file (todo_list.csv), ensuring that tasks persist between program executions.
+The program loads the tasks from the CSV file when started.
+Task Prioritization and Sorting:
+
+Tasks can be prioritized (1 = High, 2 = Medium, 3 = Low).
+Tasks can be sorted either by priority or due date.
+Task Completion:
+
+Tasks can be marked as completed and are reflected as such when viewed.
+How It Works:
+Adding Tasks: The user can add tasks with a name, due date, and priority level.
+Viewing Tasks: Tasks can be sorted by priority or due date, helping to organize work effectively.
+Marking Completion: The user can mark tasks as completed, and completed tasks will appear with the label "Completed".
+Saving and Loading: Tasks are saved in a CSV file and loaded from this file when the program starts, ensuring data persistence.
+Sample Usage:
+shell
+Copy code
+--- To-Do List Menu ---
+1. Add a Task
+2. View Tasks
+3. Complete a Task
+4. Exit
+Choose an option (1-4): 1
+Enter task name: Complete Python project
+Enter due date (YYYY-MM-DD): 2024-10-30
+Enter priority (1-High, 2-Medium, 3-Low): 1
+Task 'Complete Python project' added successfully!
+You can further enhance this project by adding reminders, integrating a GUI using Tkinter, or using SQLite for more robust database management.
