@@ -31,4 +31,3 @@ Enter task name: Complete Python project
 Enter due date (YYYY-MM-DD): 2024-10-30
 Enter priority (1-High, 2-Medium, 3-Low): 1
 Task 'Complete Python project' added successfully!
-You can further enhance this project by adding reminders, integrating a GUI using Tkinter, or using SQLite for more robust database management.
